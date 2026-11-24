@@ -1,0 +1,13 @@
+DBT_Training:
+  outputs:
+    dev:
+      account: RNKKZAM-GA52792
+      database: DBT_Training
+      password: Saint@123456789
+      role: ACCOUNTADMIN
+      schema: DBT_Training.STAGING_SCHMA
+      threads: 4
+      type: snowflake
+      user: Srr123
+      warehouse: DBT_WR_PRC
+  target: dev
